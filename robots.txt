@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://k-youki.github.io/sitemap.xml 
