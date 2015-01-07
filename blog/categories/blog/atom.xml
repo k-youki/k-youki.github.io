@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | 小谷ぷれす]]></title>
   <link href="http://k-youki.github.io/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://k-youki.github.io/"/>
-  <updated>2015-01-08T04:00:25+09:00</updated>
+  <updated>2015-01-08T04:02:21+09:00</updated>
   <id>http://k-youki.github.io/</id>
   <author>
     <name><![CDATA[小谷 優樹(るる)]]></name>
@@ -18,36 +18,27 @@
     <link href="http://k-youki.github.io/blog/2015/01/08/my-first-octopress/"/>
     <updated>2015-01-08T03:38:00+09:00</updated>
     <id>http://k-youki.github.io/blog/2015/01/08/my-first-octopress</id>
-    <content type="html"><![CDATA[<p>かなり苦戦いたしましたが，やっとOctopress構築出来ました！！！</p>
+    <content type="html"><![CDATA[<p>かなり苦戦いたしましたが，やっとOctopress構築出来ました！！!<br/>
+年を跨いでの奮闘でした，こんなことで苦戦していてお前大丈夫なのかと自分でもツッコミをいれたいです．<br/>
+とりあえずOctopressにもテーマとかテンプレートとかあるようなので，gitの勉強がてらいじいじしていきます．</p>
 
-<p>年を跨いでの奮闘でした，こんなことで苦戦していてお前大丈夫なのかと自分でもツッコミをいれたいです．</p>
+<h3>Octopressは楽しい</h3>
 
-<p>とりあえずOctopressにもテーマとかテンプレートとかあるようなので，gitの勉強がてらいじいじしていきます．</p>
+<p>markdownで簡単に記事書けます！初めて触りましたこんな便利なものがあるなんて！<br/>
+もう生のHTMLは触りたくないですね✌
+環境さえ整ってれば超簡単にブログ作れます！初期のままだとほんとに記事投稿の機能しかないけどそこが
+スタイリッシュでかっこいいですね（恍惚）<br/>
+OctopressのHPのタコは嫌いです．</p>
 
-<h1>Octopressは楽しい h1</h1>
+<h3>とりあえず備忘録として構築に苦戦したこと（覚えている限り）</h3>
 
-<p>markdownで簡単に記事書けます！初めて触りましたこんな便利なものがあるなんて！</p>
+<p>・[bundle install]でhitimesっていうgemがインストールでエラー吐く<br/>
+  →rubygemsのバージョンを下げて解消</p>
 
-<p>もう生のHTMLは触りたくないですね✌</p>
-
-<p>環境さえ整ってれば超簡単にブログ作れます！初期のままだとほんとに記事投稿の機能しかないけどそこが
-スタイリッシュでかっこいいですね（恍惚）</p>
-
-<p>OctopressのHPのタコは嫌いです．</p>
-
-<h1>とりあえず備忘録として構築に苦戦したこと（覚えている限り） h1</h1>
-
-<p>・[bundle install]でhitimesっていうgemがインストールでエラー吐く</p>
-
-<p>  →rubygemsのバージョンを下げて解消</p>
-
-<p>・[rake deploy]でreject</p>
-
-<p>  →システムが自動で行なうpushなのだが</p>
-
-<p>  →Rakefileをいじって解決</p>
-
-<p>  → system &ldquo;git push origin #{deploy_branch}&#8221;　を　system &#8220;git push origin +#{deploy_branch}&rdquo;</p>
+<p>・[rake deploy]でreject<br/>
+  →システムが自動で行なうpushなのだが<br/>
+  →Rakefileをいじって解決<br/>
+  → system &ldquo;git push origin #{deploy_branch}&#8221;　を　system &#8220;git push origin +#{deploy_branch}&rdquo;</p>
 ]]></content>
   </entry>
   
